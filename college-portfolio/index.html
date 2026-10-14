@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wilson Quintero's student technology portfolio">
+    <title>Home | Wilson Quintero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="top">
+    <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Wilson Quintero, home">
+            <img src="images/wq-logo.svg" alt="WQ logo" width="52" height="52">
+            <span><strong>Wilson Quintero</strong><small>Technology Portfolio</small></span>
+        </a>
+        <nav aria-label="Main navigation"><a href="index.html" class="active" aria-current="page">Home</a>
+<a href="about.html">About Me</a>
+<a href="hobbies.html">Hobbies</a>
+<a href="goals.html">My Goals</a>
+<a href="websites.html">Favorite Sites</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a></nav>
+    </div>
+</header>
+<main>
+<!-- My welcome image fills the whole banner. CSS adds the left-to-right gradient. -->
+<section class="hero">
+  <div class="hero-text"><p class="eyebrow">WELCOME TO MY PORTFOLIO</p><h1>Hi, I'm Wilson.</h1><p>I'm a college student learning web development and computer networks. I made this website to share what I am learning, one week at a time.</p><div class="button-row"><a class="button" href="gallery.html">See my progress →</a><a class="button button-outline" href="about.html">About me</a></div></div>
+  
+</section>
+<!-- These learning cards use CSS Grid. -->
+<section class="section">
+  <p class="eyebrow">LEARNING THIS WEEK</p>
+  <h2>My technology journey</h2>
+  <p>I am learning how to organize a web page with CSS Grid. Here are some of the topics I enjoy. I also added a mini gallery to show my interests in coding and computer networks.</p>
+  <!-- This parent uses Grid. The first child spans two columns. -->
+  <div class="learning-grid">
+    <article class="learning-card featured-learning">
+      <div>
+        <span class="card-number">01 / WEB DEVELOPMENT</span>
+        <h3>Building my website, one week at a time</h3>
+        <p>I started with HTML sections and links. Now I am using CSS Grid to arrange my content in columns. I still use Flexbox for the menu and buttons.</p>
+        <a href="gallery.html">See my weekly progress →</a>
+      </div>
+      <img src="images/web-work.svg" alt="Illustration of a computer displaying a web page">
+    </article>
+    <article class="learning-card study-card">
+      <span class="card-number">02 / CURRENT PRACTICE</span>
+      <h3>My study checklist</h3>
+      <ul>
+        <li>Write clear HTML sections</li>
+        <li>Style pages with CSS</li>
+        <li>Practice Grid and Flexbox</li>
+        <li>Check the site on my phone</li>
+      </ul>
+      <a href="goals.html">Explore my goals →</a>
+    </article>
+    <article class="learning-card">
+      <img class="topic-image" src="images/network.svg" alt="Illustration of connected computers">
+      <span class="card-number">03 / NETWORKING</span>
+      <h3>Connecting computers</h3>
+      <p>I enjoy learning how devices communicate and share information over a network.</p>
+      <a href="about.html">Read about me →</a>
+    </article>
+    <article class="learning-card">
+      <img class="topic-image" src="images/games.svg" alt="Illustration of a video game controller">
+      <span class="card-number">04 / MY HOBBIES</span>
+      <h3>Time to recharge</h3>
+      <p>I like classic video games such as Pac-Man, Mario Bros., and Tetris. Games are a fun break from studying.</p>
+      <a href="hobbies.html">See my hobbies →</a>
+    </article>
+    <article class="learning-card">
+      <img class="topic-image" src="images/gallery.svg" alt="Illustration of three web page designs">
+      <span class="card-number">05 / MY PROGRESS</span>
+      <h3>From Week 3 to Week 6</h3>
+      <p>My gallery shows how this website has changed as I learn new HTML and CSS skills.</p>
+      <a href="gallery.html">View the gallery →</a>
+    </article>
+  </div>
+</section>
+<!-- My small gallery has three images about code and networks. -->
+<section class="tech-gallery" aria-labelledby="technology-gallery-title">
+  <p class="eyebrow">WHAT I AM LEARNING</p>
+  <h2 id="technology-gallery-title">My Technology Gallery</h2>
+  <p>These are three technology topics I enjoy studying in college.</p>
+  <div class="tech-gallery-grid">
+    <figure class="tech-gallery-card">
+      <img src="images/web-work.svg" alt="Computer screen showing a web page">
+      <figcaption><strong>Web Development</strong><span>I practice HTML and CSS to build websites.</span></figcaption>
+    </figure>
+    <figure class="tech-gallery-card">
+      <img src="images/network.svg" alt="Connected devices in a computer network">
+      <figcaption><strong>Computer Networks</strong><span>I learn how computers connect and communicate.</span></figcaption>
+    </figure>
+    <figure class="tech-gallery-card">
+      <img src="images/code.svg" alt="Code symbols shown on a computer screen">
+      <figcaption><strong>Programming</strong><span>I am learning to write code and solve problems.</span></figcaption>
+    </figure>
+  </div>
+</section>
+<section class="callout"><div><h2>Want to explore my projects?</h2><p>Take a look at the pages and contact me if you want to share feedback about my work.</p></div><a class="button" href="contact.html">Leave a note →</a></section></main>
+<footer><p>Made by Wilson Quintero • Learning one step at a time</p><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wilson Quintero's student technology portfolio">
+    <title>Contact | Wilson Quintero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js" defer></script>
+</head>
+
+<body>
+
+<!-- Header with my logo and navigation menu -->
+<header id="top">
+    <div class="header-inner">
+        <a class="brand" href="index.html"
+           aria-label="Wilson Quintero, home">
+            <img src="images/wq-logo.svg"
+                 alt="WQ logo" width="52" height="52">
+            <span>
+                <strong>Wilson Quintero</strong>
+                <small>Technology Portfolio</small>
+            </span>
+        </a>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="goals.html">My Goals</a>
+            <a href="websites.html">Favorite Sites</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" class="active"
+               aria-current="page">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- Page title with my gradient background -->
+    <section class="page-heading contact-banner">
+        <p class="eyebrow">CONTACT ME</p>
+        <h1>Get in touch</h1>
+        <p>
+            Thank you for visiting my technology portfolio.
+            You can send me an email with your feedback
+            about my website.
+        </p>
+    </section>
+
+    <!-- My contact form and information -->
+    <div class="form-layout">
+
+        <section class="paper">
+
+            <h2>Contact form</h2>
+
+            <p class="form-note">
+                This is a class project. When you click
+                Send Email, your email application will
+                open with the message ready to send.
+            </p>
+
+            <!-- Form to collect visitor information -->
+            <form id="feedback-form">
+
+                <!-- Visitor name -->
+                <label for="visitor-name">Your name</label>
+                <input
+                    id="visitor-name"
+                    name="name"
+                    type="text"
+                    minlength="2"
+                    maxlength="50"
+                    required
+                    placeholder="Your name">
+
+                <!-- Visitor email -->
+                <label for="visitor-email">Your email</label>
+                <input
+                    id="visitor-email"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="Your email address">
+
+                <!-- Dropdown menu -->
+                <label for="visitor-topic">
+                    Favorite part of the site
+                </label>
+
+                <select id="visitor-topic" name="topic" required>
+                    <option value="">Choose one</option>
+                    <option value="Design">Design</option>
+                    <option value="Gallery">Gallery</option>
+                    <option value="About Me">About Me</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <!-- Message box -->
+                <label for="visitor-message">Your message</label>
+
+                <textarea
+                    id="visitor-message"
+                    name="message"
+                    rows="5"
+                    minlength="5"
+                    maxlength="500"
+                    required
+                    placeholder="What did you like or what could I improve?"></textarea>
+
+                <!-- This button opens the email application -->
+                <button class="button" type="submit">
+                    Send Email
+                </button>
+
+                <p id="form-status"
+                   role="status"
+                   aria-live="polite"></p>
+
+            </form>
+        </section>
+
+        <!-- Right side information -->
+        <aside class="paper">
+
+            <h2>Why I added this</h2>
+
+            <p>
+                In this class, I learned how to create
+                forms using HTML. I practiced labels,
+                text fields, dropdown menus, and
+                form validation.
+            </p>
+
+            <p>
+                I also learned how JavaScript can help
+                prepare an email with information
+                entered by a visitor.
+            </p>
+
+            <img
+                class="aside-image"
+                src="images/contact-tech.svg"
+                alt="Email contact illustration">
+
+            <h3>My email</h3>
+
+            <p>
+                You can also contact me directly:
+            </p>
+
+            <!-- Direct email link -->
+            <p>
+                <a href="mailto:wilson.quinterod@gmail.com">
+                    wilson.quinterod@gmail.com
+                </a>
+            </p>
+
+        </aside>
+
+    </div>
+
+</main>
+
+<!-- Website footer -->
+<footer>
+    <p>
+        Made by Wilson Quintero • Learning one step at a time
+    </p>
+    <a href="#top">Back to top ↑</a>
+</footer>
+
+</body>
+</html>
