@@ -6,6 +6,7 @@
     <meta name="description" content="Wilson Quintero's student technology portfolio">
     <title>Home | Wilson Quintero</title>
     <link rel="stylesheet" href="style.css">
+    <script src="navigation.js" defer></script>
 </head>
 <body>
 <header id="top">
@@ -14,7 +15,8 @@
             <img src="images/wq-logo.svg" alt="WQ logo" width="52" height="52">
             <span><strong>Wilson Quintero</strong><small>Technology Portfolio</small></span>
         </a>
-        <nav aria-label="Main navigation"><a href="index.html" class="active" aria-current="page">Home</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation menu"><span class="menu-icon" aria-hidden="true"></span><span class="menu-label">Menu</span></button>
+        <nav id="site-navigation" aria-label="Main navigation"><a href="index.html" class="active" aria-current="page">Home</a>
 <a href="about.html">About Me</a>
 <a href="hobbies.html">Hobbies</a>
 <a href="goals.html">My Goals</a>
@@ -43,7 +45,7 @@
         <p>I started with HTML sections and links. Now I am using CSS Grid to arrange my content in columns. I still use Flexbox for the menu and buttons.</p>
         <a href="gallery.html">See my weekly progress →</a>
       </div>
-      <img src="images/web-work.svg" alt="Illustration of a computer displaying a web page">
+      <img loading="lazy" decoding="async" src="images/web-work.svg" alt="Illustration of a computer displaying a web page">
     </article>
     <article class="learning-card study-card">
       <span class="card-number">02 / CURRENT PRACTICE</span>
@@ -57,21 +59,21 @@
       <a href="goals.html">Explore my goals →</a>
     </article>
     <article class="learning-card">
-      <img class="topic-image" src="images/network.svg" alt="Illustration of connected computers">
+      <img loading="lazy" decoding="async" class="topic-image" src="images/network.svg" alt="Illustration of connected computers">
       <span class="card-number">03 / NETWORKING</span>
       <h3>Connecting computers</h3>
       <p>I enjoy learning how devices communicate and share information over a network.</p>
       <a href="about.html">Read about me →</a>
     </article>
     <article class="learning-card">
-      <img class="topic-image" src="images/games.svg" alt="Illustration of a video game controller">
+      <img loading="lazy" decoding="async" class="topic-image" src="images/games.svg" alt="Illustration of a video game controller">
       <span class="card-number">04 / MY HOBBIES</span>
       <h3>Time to recharge</h3>
       <p>I like classic video games such as Pac-Man, Mario Bros., and Tetris. Games are a fun break from studying.</p>
       <a href="hobbies.html">See my hobbies →</a>
     </article>
     <article class="learning-card">
-      <img class="topic-image" src="images/gallery.svg" alt="Illustration of three web page designs">
+      <img loading="lazy" decoding="async" class="topic-image" src="images/gallery.svg" alt="Illustration of three web page designs">
       <span class="card-number">05 / MY PROGRESS</span>
       <h3>From Week 3 to Week 6</h3>
       <p>My gallery shows how this website has changed as I learn new HTML and CSS skills.</p>
@@ -86,15 +88,15 @@
   <p>These are three technology topics I enjoy studying in college.</p>
   <div class="tech-gallery-grid">
     <figure class="tech-gallery-card">
-      <img src="images/web-work.svg" alt="Computer screen showing a web page">
+      <img loading="lazy" decoding="async" src="images/web-work.svg" alt="Computer screen showing a web page">
       <figcaption><strong>Web Development</strong><span>I practice HTML and CSS to build websites.</span></figcaption>
     </figure>
     <figure class="tech-gallery-card">
-      <img src="images/network.svg" alt="Connected devices in a computer network">
+      <img loading="lazy" decoding="async" src="images/network.svg" alt="Connected devices in a computer network">
       <figcaption><strong>Computer Networks</strong><span>I learn how computers connect and communicate.</span></figcaption>
     </figure>
     <figure class="tech-gallery-card">
-      <img src="images/code.svg" alt="Code symbols shown on a computer screen">
+      <img loading="lazy" decoding="async" src="images/code.svg" alt="Code symbols shown on a computer screen">
       <figcaption><strong>Programming</strong><span>I am learning to write code and solve problems.</span></figcaption>
     </figure>
   </div>

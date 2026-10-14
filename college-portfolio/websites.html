@@ -6,6 +6,7 @@
     <meta name="description" content="Wilson Quintero's student technology portfolio">
     <title>Favorite Sites | Wilson Quintero</title>
     <link rel="stylesheet" href="style.css">
+    <script src="navigation.js" defer></script>
 </head>
 <body>
 <header id="top">
@@ -14,7 +15,8 @@
             <img src="images/wq-logo.svg" alt="WQ logo" width="52" height="52">
             <span><strong>Wilson Quintero</strong><small>Technology Portfolio</small></span>
         </a>
-        <nav aria-label="Main navigation"><a href="index.html">Home</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation menu"><span class="menu-icon" aria-hidden="true"></span><span class="menu-label">Menu</span></button>
+        <nav id="site-navigation" aria-label="Main navigation"><a href="index.html">Home</a>
 <a href="about.html">About Me</a>
 <a href="hobbies.html">Hobbies</a>
 <a href="goals.html">My Goals</a>
@@ -24,7 +26,7 @@
     </div>
 </header>
 <main><!-- My page banner uses a background image and a color gradient. -->
-<section class="page-intro sites-banner"><div><p class="eyebrow">FAVORITE SITES</p><h1>Where I go to learn</h1><p>These websites help me when I have a question about code or want to see how other people build things.</p></div><img src="images/sites-tech.svg" alt="Illustration of a browser window"></section>
+<section class="page-intro sites-banner"><div><p class="eyebrow">FAVORITE SITES</p><h1>Where I go to learn</h1><p>These websites help me when I have a question about code or want to see how other people build things.</p></div><img loading="lazy" decoding="async" src="images/sites-tech.svg" alt="Illustration of a browser window"></section>
 <!-- This section explains the topic of this page. -->
 <section class="section"><h2>Links I use</h2><div class="card-row">
 <article class="feature-card"><h3>W3Schools</h3><p>I use it to review HTML and CSS examples when I want to try something new.</p><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">Visit W3Schools ↗</a></article>

@@ -8,6 +8,7 @@
     <title>Contact | Wilson Quintero</title>
     <link rel="stylesheet" href="style.css">
     <script src="form.js" defer></script>
+    <script src="navigation.js" defer></script>
 </head>
 
 <body>
@@ -25,7 +26,8 @@
             </span>
         </a>
 
-        <nav aria-label="Main navigation">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation menu"><span class="menu-icon" aria-hidden="true"></span><span class="menu-label">Menu</span></button>
+        <nav id="site-navigation" aria-label="Main navigation">
             <a href="index.html">Home</a>
             <a href="about.html">About Me</a>
             <a href="hobbies.html">Hobbies</a>
@@ -142,7 +144,7 @@
                 entered by a visitor.
             </p>
 
-            <img
+            <img loading="lazy" decoding="async"
                 class="aside-image"
                 src="images/contact-tech.svg"
                 alt="Email contact illustration">

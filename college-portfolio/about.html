@@ -6,6 +6,7 @@
     <meta name="description" content="Wilson Quintero's student technology portfolio">
     <title>About Me | Wilson Quintero</title>
     <link rel="stylesheet" href="style.css">
+    <script src="navigation.js" defer></script>
 </head>
 <body>
 <header id="top">
@@ -14,7 +15,8 @@
             <img src="images/wq-logo.svg" alt="WQ logo" width="52" height="52">
             <span><strong>Wilson Quintero</strong><small>Technology Portfolio</small></span>
         </a>
-        <nav aria-label="Main navigation"><a href="index.html">Home</a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation menu"><span class="menu-icon" aria-hidden="true"></span><span class="menu-label">Menu</span></button>
+        <nav id="site-navigation" aria-label="Main navigation"><a href="index.html">Home</a>
 <a href="about.html" class="active" aria-current="page">About Me</a>
 <a href="hobbies.html">Hobbies</a>
 <a href="goals.html">My Goals</a>
@@ -24,7 +26,7 @@
     </div>
 </header>
 <main><!-- My page banner uses a background image and a color gradient. -->
-<section class="page-intro about-banner"><div><p class="eyebrow">ABOUT ME</p><h1>Getting to know me</h1><p>My name is Wilson Quintero. I am studying web development and information technology. I enjoy working with computers and finding simple ways to solve problems.</p></div><img src="images/about-tech.svg" alt="Web development illustration"></section>
+<section class="page-intro about-banner"><div><p class="eyebrow">ABOUT ME</p><h1>Getting to know me</h1><p>My name is Wilson Quintero. I am studying web development and information technology. I enjoy working with computers and finding simple ways to solve problems.</p></div><img loading="lazy" decoding="async" src="images/about-tech.svg" alt="Web development illustration"></section>
 <!-- This section explains the topic of this page. -->
 <section class="section"><h2>Why I am building this site</h2><div class="split"><div class="paper"><h3>Practice makes progress</h3><p>Every week I learn something new in class. This website gives me a place to try it. I started with a simple page and added more styles, images, and pages over time.</p></div><div class="paper"><h3>What interests me</h3><p>I am interested in how a website can help people find information. I am also learning about networking and how different devices communicate.</p></div></div></section>
 <!-- I wrote this about how I am improving with color and design. -->
