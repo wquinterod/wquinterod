@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 160" role="img" aria-labelledby="logo-title logo-description">
+    <title id="logo-title">WQ Technology Logo</title>
+    <desc id="logo-description">White WQ initials between two cyan curly braces</desc>
+
+    <text x="18" y="122"
+          fill="#18B6D9"
+          font-family="Trebuchet MS, Arial, sans-serif"
+          font-size="132"
+          font-weight="700">{</text>
+
+    <text x="116" y="119"
+          fill="#FFFFFF"
+          font-family="Trebuchet MS, Arial, sans-serif"
+          font-size="112"
+          font-weight="700">WQ</text>
+
+    <text x="380" y="122"
+          fill="#18B6D9"
+          font-family="Trebuchet MS, Arial, sans-serif"
+          font-size="132"
+          font-weight="700">}</text>
+</svg>

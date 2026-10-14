@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Technology hero illustration</title>
+<desc id="desc">A simple technology scene with a computer screen and network icons.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0%" stop-color="#123843"/>
+    <stop offset="55%" stop-color="#2b6f79"/>
+    <stop offset="100%" stop-color="#d8a86b"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="0" x2="1">
+    <stop offset="0%" stop-color="#f8fbfc"/>
+    <stop offset="100%" stop-color="#dcecef"/>
+  </linearGradient>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<circle cx="1340" cy="180" r="120" fill="#ffffff" opacity=".08"/>
+<circle cx="1360" cy="720" r="160" fill="#ffffff" opacity=".06"/>
+<path d="M0 740 C320 650 530 820 820 740 S1290 650 1600 780V900H0Z" fill="#ffffff" opacity=".07"/>
+<g opacity=".55" stroke="#dcecef" stroke-width="4" fill="none">
+  <circle cx="1035" cy="392" r="15" fill="#dcecef"/>
+  <circle cx="1162" cy="286" r="15" fill="#dcecef"/>
+  <circle cx="1144" cy="520" r="15" fill="#dcecef"/>
+  <path d="M1050 385 L1147 294 L1137 505"/>
+</g>
+<g transform="translate(650 180)">
+  <rect x="0" y="0" rx="28" ry="28" width="470" height="300" fill="#1a4c56" opacity=".55"/>
+  <rect x="24" y="24" rx="18" ry="18" width="420" height="230" fill="url(#screen)" opacity=".92"/>
+  <rect x="56" y="72" rx="8" ry="8" width="112" height="18" fill="#7db0b8"/>
+  <rect x="56" y="112" rx="10" ry="10" width="250" height="16" fill="#2f7180" opacity=".9"/>
+  <rect x="56" y="146" rx="10" ry="10" width="190" height="16" fill="#4fa3b0" opacity=".9"/>
+  <rect x="56" y="180" rx="10" ry="10" width="220" height="16" fill="#d8a86b" opacity=".86"/>
+  <text x="312" y="135" font-size="64" font-family="Arial, sans-serif" font-weight="700" fill="#234851">&lt;/&gt;</text>
+  <text x="300" y="200" font-size="52" font-family="Arial, sans-serif" font-weight="700" fill="#2f7180">{ }</text>
+</g>
+<g transform="translate(1110 600)">
+  <rect x="0" y="0" rx="22" ry="22" width="200" height="120" fill="#dcecef" opacity=".9"/>
+  <rect x="26" y="24" rx="10" ry="10" width="148" height="44" fill="#26434a"/>
+  <circle cx="54" cy="94" r="14" fill="#3b6ab3"/>
+  <circle cx="96" cy="94" r="14" fill="#2f9b8b"/>
+  <circle cx="138" cy="94" r="14" fill="#4ca7c6"/>
+</g>
+<g opacity=".16" stroke="#cde4e3" stroke-width="4" fill="none">
+  <circle cx="250" cy="700" r="14" fill="#cde4e3"/>
+  <circle cx="430" cy="600" r="14" fill="#cde4e3"/>
+  <path d="M264 694 L416 608"/>
+</g>
+</svg>
