@@ -22,7 +22,9 @@ function showNotes() {
         const item = document.createElement('li');
         const name = document.createElement('strong');
         name.textContent = note.name + ' (' + note.topic + '): ';
-        item.append(name, document.createTextNode(note.message));
+        const email = document.createElement('span');
+        email.textContent = note.email ? ' — ' + note.email + ': ' : ' '; 
+        item.append(name, email, document.createTextNode(note.message));
         list.append(item);
     });
 }
@@ -33,6 +35,7 @@ form.addEventListener('submit', event => {
     const data = new FormData(form);
     const note = {
         name: String(data.get('name')).trim(),
+        email: String(data.get('email')).trim(),
         topic: String(data.get('topic')),
         message: String(data.get('message')).trim()
     };
