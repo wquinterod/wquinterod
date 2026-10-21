@@ -1,47 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
 <title id="title">Technology hero illustration</title>
-<desc id="desc">A simple technology scene with a computer screen and network icons.</desc>
+<desc id="desc">A modern tech scene with code, devices, and network icons.</desc>
 <defs>
   <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-    <stop offset="0%" stop-color="#123843"/>
-    <stop offset="55%" stop-color="#2b6f79"/>
-    <stop offset="100%" stop-color="#d8a86b"/>
+    <stop offset="0%" stop-color="#071229"/>
+    <stop offset="55%" stop-color="#143c8a"/>
+    <stop offset="100%" stop-color="#12b5bf"/>
   </linearGradient>
   <linearGradient id="screen" x1="0" x2="1">
-    <stop offset="0%" stop-color="#f8fbfc"/>
-    <stop offset="100%" stop-color="#dcecef"/>
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
   </linearGradient>
 </defs>
 <rect width="1600" height="900" fill="url(#bg)"/>
-<circle cx="1340" cy="180" r="120" fill="#ffffff" opacity=".08"/>
-<circle cx="1360" cy="720" r="160" fill="#ffffff" opacity=".06"/>
-<path d="M0 740 C320 650 530 820 820 740 S1290 650 1600 780V900H0Z" fill="#ffffff" opacity=".07"/>
-<g opacity=".55" stroke="#dcecef" stroke-width="4" fill="none">
-  <circle cx="1035" cy="392" r="15" fill="#dcecef"/>
-  <circle cx="1162" cy="286" r="15" fill="#dcecef"/>
-  <circle cx="1144" cy="520" r="15" fill="#dcecef"/>
-  <path d="M1050 385 L1147 294 L1137 505"/>
+<circle cx="220" cy="180" r="150" fill="#60a5fa" opacity=".14"/>
+<circle cx="1330" cy="180" r="120" fill="#2dd4bf" opacity=".15"/>
+<circle cx="1400" cy="700" r="170" fill="#1d4ed8" opacity=".15"/>
+<path d="M0 740 C290 650 420 830 690 750 S1220 660 1600 780V900H0Z" fill="#ffffff" opacity=".08"/>
+<g opacity=".65" stroke="#c4f1f9" stroke-width="4" fill="none">
+  <circle cx="230" cy="590" r="15" fill="#c4f1f9"/>
+  <circle cx="360" cy="490" r="15" fill="#c4f1f9"/>
+  <circle cx="500" cy="600" r="15" fill="#c4f1f9"/>
+  <circle cx="1320" cy="350" r="15" fill="#c4f1f9"/>
+  <circle cx="1460" cy="260" r="15" fill="#c4f1f9"/>
+  <circle cx="1440" cy="460" r="15" fill="#c4f1f9"/>
+  <path d="M245 583 L345 500 L485 590"/>
+  <path d="M1335 344 L1446 268 L1435 445"/>
 </g>
-<g transform="translate(650 180)">
-  <rect x="0" y="0" rx="28" ry="28" width="470" height="300" fill="#1a4c56" opacity=".55"/>
-  <rect x="24" y="24" rx="18" ry="18" width="420" height="230" fill="url(#screen)" opacity=".92"/>
-  <rect x="56" y="72" rx="8" ry="8" width="112" height="18" fill="#7db0b8"/>
-  <rect x="56" y="112" rx="10" ry="10" width="250" height="16" fill="#2f7180" opacity=".9"/>
-  <rect x="56" y="146" rx="10" ry="10" width="190" height="16" fill="#4fa3b0" opacity=".9"/>
-  <rect x="56" y="180" rx="10" ry="10" width="220" height="16" fill="#d8a86b" opacity=".86"/>
-  <text x="312" y="135" font-size="64" font-family="Arial, sans-serif" font-weight="700" fill="#234851">&lt;/&gt;</text>
-  <text x="300" y="200" font-size="52" font-family="Arial, sans-serif" font-weight="700" fill="#2f7180">{ }</text>
+<g transform="translate(570 170)">
+  <rect x="0" y="0" rx="28" ry="28" width="500" height="320" fill="#0f172a" opacity=".9"/>
+  <rect x="24" y="24" rx="18" ry="18" width="452" height="250" fill="url(#screen)"/>
+  <rect x="190" y="280" rx="10" ry="10" width="120" height="22" fill="#cbd5e1"/>
+  <rect x="150" y="302" rx="12" ry="12" width="200" height="20" fill="#94a3b8" opacity=".9"/>
+  <rect x="54" y="64" rx="8" ry="8" width="140" height="20" fill="#93c5fd"/>
+  <rect x="54" y="104" rx="10" ry="10" width="260" height="18" fill="#1d4ed8" opacity=".92"/>
+  <rect x="54" y="142" rx="10" ry="10" width="180" height="18" fill="#14b8a6" opacity=".92"/>
+  <rect x="54" y="180" rx="10" ry="10" width="220" height="18" fill="#38bdf8" opacity=".92"/>
+  <text x="330" y="112" font-size="62" font-family="Arial, sans-serif" font-weight="700" fill="#0f172a">&lt;/&gt;</text>
+  <text x="300" y="185" font-size="56" font-family="Arial, sans-serif" font-weight="700" fill="#14b8a6">{ }</text>
 </g>
-<g transform="translate(1110 600)">
-  <rect x="0" y="0" rx="22" ry="22" width="200" height="120" fill="#dcecef" opacity=".9"/>
-  <rect x="26" y="24" rx="10" ry="10" width="148" height="44" fill="#26434a"/>
-  <circle cx="54" cy="94" r="14" fill="#3b6ab3"/>
-  <circle cx="96" cy="94" r="14" fill="#2f9b8b"/>
-  <circle cx="138" cy="94" r="14" fill="#4ca7c6"/>
+<g transform="translate(1120 580)">
+  <rect x="0" y="0" rx="24" ry="24" width="220" height="150" fill="#e0f2fe" opacity=".92"/>
+  <rect x="28" y="28" rx="12" ry="12" width="164" height="54" fill="#0f172a"/>
+  <circle cx="58" cy="110" r="16" fill="#2563eb"/>
+  <circle cx="110" cy="110" r="16" fill="#14b8a6"/>
+  <circle cx="162" cy="110" r="16" fill="#38bdf8"/>
 </g>
-<g opacity=".16" stroke="#cde4e3" stroke-width="4" fill="none">
-  <circle cx="250" cy="700" r="14" fill="#cde4e3"/>
-  <circle cx="430" cy="600" r="14" fill="#cde4e3"/>
-  <path d="M264 694 L416 608"/>
+<g transform="translate(180 110)" fill="#ecfeff" opacity=".92">
+  <text x="0" y="0" font-size="86" font-family="Arial, sans-serif" font-weight="700">#include</text>
+  <text x="0" y="88" font-size="72" font-family="Arial, sans-serif" font-weight="700">network()</text>
 </g>
 </svg>

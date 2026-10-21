@@ -1,14 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
-<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient></defs>
-<rect width="900" height="700" rx="40" fill="url(#bg)"/>
-<rect x="135" y="130" width="630" height="440" rx="32" fill="#f8fbff"/>
-<rect x="180" y="185" width="300" height="210" rx="22" fill="#e0f2fe"/>
-<path d="M210 225h240c8 0 14 6 14 14v102c0 8-6 14-14 14H210c-8 0-14-6-14-14V239c0-8 6-14 14-14z" fill="#ffffff" stroke="#93c5fd" stroke-width="8"/>
-<path d="M198 240l132 94 132-94" fill="none" stroke="#2563eb" stroke-width="8"/>
-<rect x="525" y="205" width="185" height="18" rx="9" fill="#93c5fd"/>
-<rect x="525" y="248" width="140" height="16" rx="8" fill="#cbd5e1"/>
-<rect x="525" y="320" width="150" height="90" rx="18" fill="#ecfeff"/>
-<text x="553" y="375" font-size="34" font-family="Arial, sans-serif" font-weight="700" fill="#14b8a6">Note</text>
-<rect x="190" y="450" width="520" height="18" rx="9" fill="#dbeafe"/>
-<rect x="190" y="485" width="390" height="16" rx="8" fill="#cbd5e1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Contact illustration in teal, green and cream">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#12333c"/><stop offset="1" stop-color="#328c94"/></linearGradient><linearGradient id="paper" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e4f3ef"/></linearGradient></defs>
+<rect width="900" height="700" rx="38" fill="url(#bg)"/>
+<circle cx="760" cy="100" r="135" fill="#79c5b9" opacity=".16"/><circle cx="105" cy="610" r="175" fill="#79c5b9" opacity=".12"/>
+<rect x="127" y="120" width="646" height="457" rx="35" fill="url(#paper)"/>
+<rect x="168" y="168" width="350" height="268" rx="26" fill="#c5e5dd"/>
+<rect x="190" y="206" width="306" height="198" rx="18" fill="#f7fffc" stroke="#4d9b95" stroke-width="8"/>
+<path d="M199 219L343 330L487 219" fill="none" stroke="#205762" stroke-width="13" stroke-linejoin="round"/>
+<path d="M200 389L303 302M486 389L385 302" fill="none" stroke="#79c5b9" stroke-width="7"/>
+<circle cx="634" cy="230" r="66" fill="#205762"/><path d="M602 229l24 24 43-50" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="558" y="329" width="151" height="19" rx="9" fill="#328c94"/><rect x="558" y="370" width="118" height="16" rx="8" fill="#4d9b95"/>
+<rect x="186" y="475" width="523" height="18" rx="9" fill="#79c5b9"/><rect x="186" y="513" width="386" height="15" rx="8" fill="#4d9b95" opacity=".75"/>
 </svg>
