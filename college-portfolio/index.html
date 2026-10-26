@@ -34,6 +34,15 @@
   <p class="eyebrow">LEARNING THIS WEEK</p>
   <h2>My technology journey</h2>
   <p>I am learning how to organize a web page with CSS Grid. Here are some of the topics I enjoy. I also added a mini gallery to show my interests in coding and computer networks.</p>
+  <!-- JavaScript interaction: visitors can click to cycle through short coding tips. -->
+  <div class="coding-tip" aria-labelledby="coding-tip-title">
+    <div class="coding-tip-copy">
+      <span class="card-number">QUICK INTERACTIVE TIP</span>
+      <h3 id="coding-tip-title">Learn one thing at a time</h3>
+      <p id="coding-tip-text" aria-live="polite">Small, regular practice is a great way to improve your web development skills.</p>
+    </div>
+    <button class="button coding-tip-button" id="coding-tip-button" type="button">Show me a coding tip →</button>
+  </div>
   <!-- This parent uses Grid. The first child spans two columns. -->
   <div class="learning-grid">
     <article class="learning-card featured-learning">
@@ -101,5 +110,6 @@
 </section>
 <section class="callout"><div><h2>Want to explore my projects?</h2><p>Take a look at the pages and leave me a note about your favorite part.</p></div><a class="button" href="contact.html">Leave a note →</a></section></main>
 <footer><p>Made by Wilson Quintero • Learning one step at a time</p><a href="#top">Back to top ↑</a></footer>
+    <script src="script.js" defer></script>
 </body>
 </html>

@@ -460,3 +460,34 @@ footer a { color: #fff0d6; }
 .email-button { display: inline-block; margin-top: 14px; }
 /* Keep the gallery in three columns on desktop and one on mobile. */
 @media (max-width: 760px) { .page-heading.gallery-banner,.page-heading.contact-banner { min-height: 260px; padding: 26px; } }
+
+
+/* CSS interaction for the coding tip: a purposeful lift and slight scale on hover. */
+.coding-tip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 28px 0 30px;
+    padding: 24px 28px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--teal);
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(11, 31, 58, 0.06);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.coding-tip:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 14px 28px rgba(11, 31, 58, 0.12);
+}
+.coding-tip-copy { flex: 1; }
+.coding-tip-copy .card-number { display: inline-block; margin-bottom: 8px; }
+.coding-tip-copy h3 { margin-bottom: 8px; }
+.coding-tip-copy p { margin-bottom: 0; }
+.coding-tip-button { flex: 0 0 auto; font: bold 15px Arial, sans-serif; }
+.coding-tip-button:active { transform: scale(.97); }
+@media (max-width: 650px) {
+    .coding-tip { align-items: stretch; flex-direction: column; padding: 20px; }
+    .coding-tip-button { align-self: flex-start; }
+}
